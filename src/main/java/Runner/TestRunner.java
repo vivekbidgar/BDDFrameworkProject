@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		,monochrome = true
 		,strict = true
 		,dryRun = false
-		,tags = {"@smokeTest"}
+		,tags = {"@smokeTest" }
 		)
 
 public class TestRunner {
