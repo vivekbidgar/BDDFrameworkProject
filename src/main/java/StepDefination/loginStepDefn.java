@@ -26,6 +26,7 @@ public class loginStepDefn {
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium jar Driver\\chromedriver.exe");  
 		driver = new ChromeDriver();
 		driver.get("https://ui.freecrm.com/");
+		driver.gettitle();
 	}
 
 	@When("^title of login page is Free CRM$")
